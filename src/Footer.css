@@ -1,0 +1,76 @@
+.backbutton {
+  /*position: fixed;*/
+  /*bottom: 20px;*/
+  /*right: 20px;*/
+  font-size: 30px;
+
+  /*cursor: pointer;*/
+  width: 100%;
+
+  margin-top: 10px;
+
+  /*box-shadow: 0 5px 10px #ccc;*/
+
+  background: #232f3e;
+  /*border: 5px solid;*/
+  margin-top: 10px;
+  /*border-color: #a88734 #9c7e31 #846a29;*/
+  color: white;
+}
+
+.backbutton > p {
+  font-style: oblique;
+}
+
+.backbutton:hover {
+  background: darkgray;
+}
+
+/* Just some color boxes to make the page longer */
+
+.footer {
+  background: #232f3e;
+  width: 100%;
+  height: 50vh;
+  margin: 0px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.Column > h1 {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 70px;
+  font-weight: bold;
+}
+
+.links {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: blue;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+}
